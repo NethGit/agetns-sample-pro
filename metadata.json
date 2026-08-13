@@ -1,0 +1,6 @@
+{
+  "name": "Market Terminal",
+  "description": "Comprehensive financial market overview with real-time stock, crypto, forex, futures, and indices monitoring, interactive charts, search, and watchlists.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
