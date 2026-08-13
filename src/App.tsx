@@ -7,6 +7,7 @@ import { AssetDetailModal } from './components/AssetDetailModal';
 import { SearchModal } from './components/SearchModal';
 import { WatchlistDrawer } from './components/WatchlistDrawer';
 import { MarketNewsSection } from './components/MarketNewsSection';
+import { DisqusComments } from './components/DisqusComments';
 import { Footer } from './components/Footer';
 import { MARKET_ASSETS, BREAKING_NEWS, ECONOMIC_CALENDAR } from './data/marketData';
 import { Asset, MarketCategory } from './types';
@@ -141,6 +142,9 @@ export default function App() {
 
           {/* Market News & Economic Calendar */}
           <MarketNewsSection news={BREAKING_NEWS} economicEvents={ECONOMIC_CALENDAR} />
+
+          {/* Community Discussion Forum (Disqus) */}
+          <DisqusComments />
         </section>
       </main>
 
